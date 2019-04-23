@@ -1,5 +1,10 @@
 .map {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+button {
+  border: none;
+  background: none;
 }
