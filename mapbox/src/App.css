@@ -1,7 +1,9 @@
 .map {
-  width: 1000px;
+  border: solid black 12px;
+  border-radius: 6px;
+  width: 800px;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 6%;
 }
 
 button {
