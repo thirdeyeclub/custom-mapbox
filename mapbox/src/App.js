@@ -25,8 +25,8 @@ const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YW
 
   return (
 <>
-<link href="./css/nes.css" rel="stylesheet"/>
-      <nav>
+      <div className="rpgui-content">
+      <nav className="framed rpgui-draggable">
         <button href="#">Compare</button>
       </nav>
   <div className="fluid-container">
@@ -58,6 +58,7 @@ const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YW
       <div className="sideLow">low</div>
     </div>
   </div>
+</div>
 </>
   );
 }
