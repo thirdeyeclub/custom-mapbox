@@ -19,6 +19,8 @@ export default function App() {
     longitude: -122.4194,
     zoom: 8
   });
+// cannot ge token to work for some reason
+const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YWpydmgifQ.vtmP3IjAz4xH3412uQkj2";
 
   return (
     <div className="map">
@@ -26,8 +28,8 @@ export default function App() {
       <p />
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-        mapStyle="mapbox://styles/thirdeyeclub/cjutdopu33db01fmsym0vr1pi"
+        mapboxApiAccessToken={TOKEN}
+        mapStyle="mapbox://styles/thirdeyeclub/cjv3e2kv60j5g1fqxc07ftk4f"
         onViewportChange={viewport => {
           setViewport(viewport);
         }}
