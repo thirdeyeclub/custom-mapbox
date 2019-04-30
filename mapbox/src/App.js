@@ -5,6 +5,7 @@ import { MapPin } from 'styled-icons/fa-solid/MapPin';
 import styled from 'styled-components';
 import './App.css';
 
+//APP
 export default function App() {
   const RedPin = styled(MapPin)`
     height: 20px;
