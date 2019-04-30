@@ -14,8 +14,8 @@ export default function App() {
   `;
 
   const [viewport, setViewport] = useState({
-    width: '800px',
-    height: '800px',
+    width: '700px',
+    height: '640px',
     latitude: 37.7749,
     longitude: -122.4194,
     zoom: 8
@@ -24,8 +24,13 @@ export default function App() {
 const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YWpydmgifQ.vtmP3IjAz4xH3412uQkj2";
 
   return (
+<>
+<link href="./css/nes.css" rel="stylesheet"/>
+      <nav>
+        <button href="#">Compare</button>
+      </nav>
+  <div className="fluid-container">
     <div className="map">
-      <h1>Map</h1>
       <p />
       <ReactMapGL
         {...viewport}
@@ -48,5 +53,11 @@ const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YW
         ))}
       </ReactMapGL>
     </div>
+    <div className="side">
+      <div className="sideHigh">high</div>
+      <div className="sideLow">low</div>
+    </div>
+  </div>
+</>
   );
 }
