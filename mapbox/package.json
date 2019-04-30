@@ -5,6 +5,7 @@
   "dependencies": {
     "dotenv": "^7.0.0",
     "nes.css": "^2.1.1",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-map-gl": "^4.1.2",
@@ -33,7 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "babel-eslint": "10.0.1"
-  }
+  "devDependencies": {}
 }
