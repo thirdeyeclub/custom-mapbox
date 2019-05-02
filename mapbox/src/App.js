@@ -21,16 +21,8 @@ export default function App() {
     zoom: 8
   });
 // cannot ge token to work for some reason
-const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YWpydmgifQ.vtmP3IjAz4xH3412uQkj2";
+const TOKEN = "pk.eyJj2";
 
-  return (
-<>
-      <div className="rpgui-content">
-      <nav className="framed rpgui-draggable">
-        <button href="#">Compare</button>
-      </nav>
-  <div className="fluid-container">
-    <div className="map">
       <p />
       <ReactMapGL
         {...viewport}
