@@ -21,7 +21,9 @@ export default function App() {
     zoom: 8
   });
 // cannot ge token to work for some reason
+
 const TOKEN = "pk.eyJ1IjoibGl2ZXNhZmUiLCJhIjoiY2p2ZHdtb3ltMmRiZzQzb2owaHh1ZG5jdSJ9.qz9HwceVUQn04QLxvQ8M2g";
+
 
   return (
 <>

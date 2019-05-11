@@ -1,46 +1,45 @@
-html {
-  background: rgb(241, 240, 240);
-}
-
-.map {
-  width: 1400px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.fluid-container{
+  border: 1px red solid;
   display: flex;
-  justify-content: space-between;
-}
-
-.nav {
-  background: #fff;
-  border: 1px solid rgba(128, 128, 128, 0.158);
-  margin-right: 10px;
-  text-align: center;
-  border-radius: 20px;
-  height: 175px;
-  border: 1px solid #1976d2;
-}
-
-.night:hover {
-  background: #1976d275;
-  border-radius: 20px;
-  transition: 0.33s;
-}
-
-button {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.marker:hover {
-  transform: scale(1.5);
-}
-
-button:focus {
-  outline: none;
-}
-
-.mapboxgl-popup-content {
-  border: 1px solid rgba(211, 211, 211, 0.315);
-}
+  
+  }
+  
+  .map {
+    margin: 55px 55px;
+    border: solid black 12px;
+    border-radius: 6px;
+    width: 744px;
+    height: 722px;
+  }
+  
+  .side{
+    display:inherit;
+    flex-direction: column;
+    border: 1px red solid;
+    margin:20px;
+    width: 100%;
+  }
+  
+  .sideHigh{
+    border: 1px rgb(34, 255, 0) solid;
+    margin: 10px 20px;
+    height: 80%;
+  }
+  
+  .sideLow{
+    border: 1px rgb(0, 179, 255) solid;
+    margin: 10px 20px;
+    height: 80%;
+  }
+  
+  nav{
+    border: 1px red solid;
+    text-align: right;
+    margin-right: 5%;
+    margin-top:15px;
+    margin-bottom: 15px;
+  }
+  
+  button{
+    border: 1px gray solid
+  }
