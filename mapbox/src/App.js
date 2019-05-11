@@ -21,7 +21,9 @@ export default function App() {
     zoom: 8
   });
 // cannot ge token to work for some reason
-const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YWpydmgifQ.vtmP3IjAz4xH3412uQkj2";
+
+const TOKEN = "pk.eyJ1IjoibGl2ZXNhZmUiLCJhIjoiY2p2ZHdtb3ltMmRiZzQzb2owaHh1ZG5jdSJ9.qz9HwceVUQn04QLxvQ8M2g";
+
 
   return (
 <>
@@ -35,7 +37,7 @@ const TOKEN = "pk.eyJ1IjoidGhpcmRleWVjbHViIiwiYSI6ImNqdXRhcTFlcDA2M2c0ZXBoa203YW
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={TOKEN}
-        mapStyle="mapbox://styles/thirdeyeclub/cjv3e2kv60j5g1fqxc07ftk4f"
+        mapStyle="mapbox://styles/livesafe/cjvj860g610hx1cqvftq0a5v0"
         onViewportChange={viewport => {
           setViewport(viewport);
         }}
